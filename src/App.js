@@ -1,6 +1,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import CustomNavbar from './components/CustomNavbar'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       />
       {/* passing different props you can dramatically change the content of a component */}
       {/* <CustomNavbar title="Strivify" payoff="The best music" /> */}
+      <Home />
     </div>
   )
 }
